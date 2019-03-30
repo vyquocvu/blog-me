@@ -2,7 +2,7 @@
 template: page
 title: About me
 slug: about-me
-draft: true
+draft: false
 ---
 Xin chào. Mình là Vũ, và đang là một developer. 
 
