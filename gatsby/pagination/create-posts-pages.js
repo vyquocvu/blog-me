@@ -16,7 +16,16 @@ module.exports = async (graphql, actions) => {
 
   const { postsPerPage } = siteConfig;
   const numPages = Math.ceil(result.data.allMarkdownRemark.totalCount / postsPerPage);
-
+  if (numPages === 0) {
+    createPage({
+      path: '/',
+      component: path.resolve('./src/templates/index-template.js'),
+      context: {
+        postsLimit: 4,
+        postsOffset: 0,
+      }
+    });
+  }
   for (let i = 0; i < numPages; i += 1) {
     createPage({
       path: i === 0 ? '/' : `/page/${i}`,

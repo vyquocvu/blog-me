@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
+  url: 'https://vyquocvu.me',
+  title: 'Blog by Vu. Vy Quoc',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -15,19 +15,19 @@ module.exports = {
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/about'
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
+      path: '/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Vu. Vy Quoc',
+    photo: '/photo.png',
+    bio: 'Just a Developer',
     contacts: {
-      email: '#',
+      email: 'vyquocvu@mail.com',
       telegram: '#',
       twitter: '#',
       github: '#',
