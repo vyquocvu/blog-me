@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://vyquocvu.me',
+  url: 'https://vyquocvu.netlify.com',
   title: 'Blog by Vu. Vy Quoc',
   subtitle: 'This is my personal blog',
   copyright: '© All rights reserved.',
@@ -24,13 +24,13 @@ module.exports = {
   ],
   author: {
     name: 'Vu. Vy Quoc',
-    photo: '/photo.jpg',
+    photo: '/photo.png',
     bio: 'Just a Developer',
     contacts: {
       email: 'vyquocvu@mail.com',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      telegram: 'vyquocvu',
+      twitter: 'vyquocvu',
+      github: 'vyquocvu',
       rss: '#',
       vkontakte: '#'
     }
