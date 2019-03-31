@@ -1,7 +1,6 @@
 ---
 template: post
 title: Chọn IT dòng đời đưa đẩy
-slug: posts/buoc-chan-vao-it
 draft: false
 date: 2019-03-31T10:16:17.812Z
 description: Vì sao chọn I Tờ?
