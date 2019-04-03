@@ -24,7 +24,7 @@ module.exports = {
   ],
   author: {
     name: 'Vu. Vy Quoc',
-    photo: '/photo.png',
+    photo: '/photo.webp',
     bio: 'Just a Developer',
     contacts: {
       email: 'vyquocvu@mail.com',
